@@ -16,7 +16,7 @@
 	<body>
 		<a href="index1.html">Домашняя страница</a>
 			<h1>Регистрация пользователя</h1>
-			<form name="forma" action="connect.php" method="post">
+			<form method="POST" action="check.php">
  				Ваше имя: <input type="text" name="name"><br />
  				Пароль:   <input type="text" name="pwd"><br />
  				E-mail: <input type="text" name="email"><br />

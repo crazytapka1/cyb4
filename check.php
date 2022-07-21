@@ -12,4 +12,4 @@ mysqli_query($conn,$sql);
 mysqli_close($conn);
 
 echo "Вы зарегистрированны!";
-include "login.php";
+echo '<meta http-equiv= "refresh" content= "3; url=login.php"/>';
